@@ -1,0 +1,23 @@
+{
+  "name": "requirejs-mutationobserver",
+  "version": "0.0.0",
+  "description": "RequireJs implemention of a set of MutationObserver polyfills",
+  "main": "requirejs-mutationobserver.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artemkaint/requirejs-mutationobserver.git"
+  },
+  "keywords": [
+    "requirejs",
+    "mutationobserver"
+  ],
+  "author": "Artem Soltynskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artemkaint/requirejs-mutationobserver/issues"
+  },
+  "homepage": "https://github.com/artemkaint/requirejs-mutationobserver",
+  "devDependencies": {
+    "bower": "^1.3.3"
+  }
+}
