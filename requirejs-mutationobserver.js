@@ -1,10 +1,12 @@
-define([], function(){
+define([
+  'MutationObserver',
+  './lib/jquery.mutationobserver'
+], function(MutationObserver, JQueryMutationObserver){
   if(window.MutationObserver) {
     return window.MutationObserver;
   } else if(window.MutationEvent) {
-    return require('MutationObserver');
-
+    return MutationObserver;
   } else {
-    return require('./lib/jquery.mutationobserver');
+    return JQueryMutationObserver;
   }
 });
