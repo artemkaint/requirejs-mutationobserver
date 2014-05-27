@@ -1,6 +1,6 @@
 {
   "name": "requirejs-mutationobserver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/artemkaint/requirejs-mutationobserver",
   "authors": [
     "Artem Soltynskiy <artemkaint@gmail.com>"

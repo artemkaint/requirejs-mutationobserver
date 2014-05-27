@@ -1,7 +1,8 @@
 define([
+  'WeakMap',
   'MutationObserver',
   './lib/jquery.mutationobserver'
-], function(MutationObserver, JQueryMutationObserver){
+], function(WeakMap, MutationObserver, JQueryMutationObserver){
   if(window.MutationObserver) {
     return window.MutationObserver;
   } else if(window.MutationEvent) {
